@@ -7,6 +7,7 @@
 //
 
 import Combine
+import MastodonKit
 import SwiftUI
 import UIKit
 
@@ -40,7 +41,7 @@ class StatusTableViewController: UITableViewController {
         let tableViewCell = tableView.dequeueReusableCell(withIdentifier: "StatusTableViewCell", for: indexPath)
         if let statusTableViewCell = tableViewCell as? StatusTableViewCell {
             let status = publicTimeline[indexPath.row]
-            statusTableViewCell.contentLabel.text = status.content
+            statusTableViewCell.contentLabel.attributedText = HTMLParser().parse(string: status.content)
         }
         return tableViewCell
     }

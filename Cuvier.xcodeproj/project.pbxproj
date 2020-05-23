@@ -14,6 +14,7 @@
 		4BD9462E24792A36005874EE /* StatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9462D24792A36005874EE /* StatusTableViewCell.swift */; };
 		4BD9463024794E72005874EE /* StatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9462F24794E72005874EE /* StatusTableViewController.swift */; };
 		4BD9463224794EE7005874EE /* SwiftUIPreviewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9463124794EE7005874EE /* SwiftUIPreviewHelpers.swift */; };
+		4BD946362479D665005874EE /* MastodonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4BD946352479D665005874EE /* MastodonKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD946362479D665005874EE /* MastodonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +65,20 @@
 			path = "Cuvier-iOS";
 			sourceTree = "<group>";
 		};
+		4BD946342479D665005874EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4BE857AD24786CDE00C146DC = {
 			isa = PBXGroup;
 			children = (
 				4BD9463324798819005874EE /* MastodonKit */,
 				4BD9461A24792100005874EE /* Cuvier-iOS */,
 				4BD94619247920FF005874EE /* Products */,
+				4BD946342479D665005874EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +98,9 @@
 			dependencies = (
 			);
 			name = "Cuvier-iOS";
+			packageProductDependencies = (
+				4BD946352479D665005874EE /* MastodonKit */,
+			);
 			productName = "Cuvier-iOS";
 			productReference = 4BD94618247920FF005874EE /* Cuvier-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -340,6 +353,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4BD946352479D665005874EE /* MastodonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MastodonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4BE857AE24786CDE00C146DC /* Project object */;
 }
