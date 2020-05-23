@@ -11,7 +11,6 @@
 		4BD9461E24792100005874EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9461D24792100005874EE /* SceneDelegate.swift */; };
 		4BD9462024792100005874EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9461F24792100005874EE /* ContentView.swift */; };
 		4BD9462224792102005874EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD9462124792102005874EE /* Assets.xcassets */; };
-		4BD9462524792102005874EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD9462424792102005874EE /* Preview Assets.xcassets */; };
 		4BD9462824792102005874EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD9462624792102005874EE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +20,6 @@
 		4BD9461D24792100005874EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4BD9461F24792100005874EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4BD9462124792102005874EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4BD9462424792102005874EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BD9462724792102005874EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BD9462924792102005874EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,17 +52,8 @@
 				4BD9462124792102005874EE /* Assets.xcassets */,
 				4BD9462624792102005874EE /* LaunchScreen.storyboard */,
 				4BD9462924792102005874EE /* Info.plist */,
-				4BD9462324792102005874EE /* Preview Content */,
 			);
 			path = "Cuvier-iOS";
-			sourceTree = "<group>";
-		};
-		4BD9462324792102005874EE /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4BD9462424792102005874EE /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		4BE857AD24786CDE00C146DC = {
@@ -134,7 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD9462824792102005874EE /* LaunchScreen.storyboard in Resources */,
-				4BD9462524792102005874EE /* Preview Assets.xcassets in Resources */,
 				4BD9462224792102005874EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,7 +190,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_ASSET_PATHS = "\"Cuvier-iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 2CPJD7ENY9;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -230,7 +218,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.obitow.Cuvier-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = me.obitow.cuvier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -276,7 +264,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_ASSET_PATHS = "\"Cuvier-iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 2CPJD7ENY9;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_PREVIEWS = YES;
@@ -297,7 +285,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.obitow.Cuvier-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = me.obitow.cuvier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
