@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXGroup section */
@@ -20,9 +20,10 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Igor Camilo";
 			};
 			buildConfigurationList = 4BE857B124786CDE00C146DC /* Build configuration list for PBXProject "Cuvier" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
