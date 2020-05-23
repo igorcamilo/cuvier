@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		4BD9461C24792100005874EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9461B24792100005874EE /* AppDelegate.swift */; };
 		4BD9461E24792100005874EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9461D24792100005874EE /* SceneDelegate.swift */; };
-		4BD9462024792100005874EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9461F24792100005874EE /* ContentView.swift */; };
 		4BD9462224792102005874EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD9462124792102005874EE /* Assets.xcassets */; };
 		4BD9462824792102005874EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD9462624792102005874EE /* LaunchScreen.storyboard */; };
+		4BD9462E24792A36005874EE /* StatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9462D24792A36005874EE /* StatusTableViewCell.swift */; };
+		4BD9463024794E72005874EE /* StatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9462F24794E72005874EE /* StatusTableViewController.swift */; };
+		4BD9463224794EE7005874EE /* SwiftUIPreviewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9463124794EE7005874EE /* SwiftUIPreviewHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4BD94618247920FF005874EE /* Cuvier-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cuvier-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD9461B24792100005874EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BD9461D24792100005874EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BD9461F24792100005874EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4BD9462124792102005874EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BD9462724792102005874EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BD9462924792102005874EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD9462D24792A36005874EE /* StatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusTableViewCell.swift; path = "../../cuvier/Cuvier-iOS/StatusTableViewCell.swift"; sourceTree = "<group>"; };
+		4BD9462F24794E72005874EE /* StatusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusTableViewController.swift; path = "../../cuvier/Cuvier-iOS/StatusTableViewController.swift"; sourceTree = "<group>"; };
+		4BD9463124794EE7005874EE /* SwiftUIPreviewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftUIPreviewHelpers.swift; path = "../../cuvier/Cuvier-iOS/SwiftUIPreviewHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,9 @@
 			children = (
 				4BD9461B24792100005874EE /* AppDelegate.swift */,
 				4BD9461D24792100005874EE /* SceneDelegate.swift */,
-				4BD9461F24792100005874EE /* ContentView.swift */,
+				4BD9462D24792A36005874EE /* StatusTableViewCell.swift */,
+				4BD9462F24794E72005874EE /* StatusTableViewController.swift */,
+				4BD9463124794EE7005874EE /* SwiftUIPreviewHelpers.swift */,
 				4BD9462124792102005874EE /* Assets.xcassets */,
 				4BD9462624792102005874EE /* LaunchScreen.storyboard */,
 				4BD9462924792102005874EE /* Info.plist */,
@@ -135,8 +141,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD9461C24792100005874EE /* AppDelegate.swift in Sources */,
+				4BD9463024794E72005874EE /* StatusTableViewController.swift in Sources */,
+				4BD9463224794EE7005874EE /* SwiftUIPreviewHelpers.swift in Sources */,
 				4BD9461E24792100005874EE /* SceneDelegate.swift in Sources */,
-				4BD9462024792100005874EE /* ContentView.swift in Sources */,
+				4BD9462E24792A36005874EE /* StatusTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
