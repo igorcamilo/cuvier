@@ -26,6 +26,7 @@
 		4BD9462D24792A36005874EE /* StatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusTableViewCell.swift; path = "../../cuvier/Cuvier-iOS/StatusTableViewCell.swift"; sourceTree = "<group>"; };
 		4BD9462F24794E72005874EE /* StatusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusTableViewController.swift; path = "../../cuvier/Cuvier-iOS/StatusTableViewController.swift"; sourceTree = "<group>"; };
 		4BD9463124794EE7005874EE /* SwiftUIPreviewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftUIPreviewHelpers.swift; path = "../../cuvier/Cuvier-iOS/SwiftUIPreviewHelpers.swift"; sourceTree = "<group>"; };
+		4BD9463324798819005874EE /* MastodonKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MastodonKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 		4BE857AD24786CDE00C146DC = {
 			isa = PBXGroup;
 			children = (
+				4BD9463324798819005874EE /* MastodonKit */,
 				4BD9461A24792100005874EE /* Cuvier-iOS */,
 				4BD94619247920FF005874EE /* Products */,
 			);
